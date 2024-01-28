@@ -24,8 +24,8 @@ QUnit.module('DOM', (hooks) => {
 		const subtitleEl = createElement('p', 'highlight', 'Lorem ipsum');
 		document.body.appendChild(subtitleEl);
 
-		const issubtitleElExist = !!document.querySelector('.highlight');
-		assert.ok(issubtitleElExist);
+		const isSubtitleElExist = !!document.querySelector('.highlight');
+		assert.ok(isSubtitleElExist);
 	});
 
 	test("should be able to return element attribute data via 'createElementAttribute' function", (assert) => {
