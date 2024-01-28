@@ -49,8 +49,8 @@ const createCardEl = () => {
 	);
 
 	const sectionJoinCommunitySubtitleEl = createElement(
-		'mark',
-		'card__mark',
+		'p',
+		'card__subtitle',
 		'30-day, hassle-free money back guarantee'
 	);
 

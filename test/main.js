@@ -21,11 +21,11 @@ QUnit.module('DOM', (hooks) => {
 	});
 
 	test("should be able to create element via 'createElement' function", (assert) => {
-		const markEl = createElement('mark', 'highlight', 'Lorem ipsum');
-		document.body.appendChild(markEl);
+		const subtitleEl = createElement('p', 'highlight', 'Lorem ipsum');
+		document.body.appendChild(subtitleEl);
 
-		const isMarkElExist = !!document.querySelector('.highlight');
-		assert.ok(isMarkElExist);
+		const issubtitleElExist = !!document.querySelector('.highlight');
+		assert.ok(issubtitleElExist);
 	});
 
 	test("should be able to return element attribute data via 'createElementAttribute' function", (assert) => {
